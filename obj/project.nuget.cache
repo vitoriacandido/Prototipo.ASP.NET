@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mnJnlT4IEcM=",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Alunos\\Documents\\00\\00.csproj",
+  "dgSpecHash": "ndgXiPNr0lE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\00.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alunos\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -82,9 +82,9 @@
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.12\\microsoft.data.sqlite.core.8.0.12.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\8.0.7\\microsoft.dotnet.scaffolding.shared.8.0.7.nupkg.sha512",
-    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-rc.1.23419.6\\microsoft.entityframeworkcore.8.0.0-rc.1.23419.6.nupkg.sha512",
-    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-rc.1.23419.6\\microsoft.entityframeworkcore.abstractions.8.0.0-rc.1.23419.6.nupkg.sha512",
-    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-rc.1.23419.6\\microsoft.entityframeworkcore.analyzers.8.0.0-rc.1.23419.6.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.19\\microsoft.entityframeworkcore.8.0.19.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.19\\microsoft.entityframeworkcore.abstractions.8.0.19.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.19\\microsoft.entityframeworkcore.analyzers.8.0.19.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.19\\microsoft.entityframeworkcore.design.8.0.19.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.19\\microsoft.entityframeworkcore.relational.8.0.19.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.12\\microsoft.entityframeworkcore.sqlite.8.0.12.nupkg.sha512",
@@ -92,7 +92,7 @@
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.19\\microsoft.entityframeworkcore.sqlserver.8.0.19.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.19\\microsoft.entityframeworkcore.tools.8.0.19.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-rc.1.23419.4\\microsoft.extensions.caching.memory.8.0.0-rc.1.23419.4.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
@@ -181,34 +181,5 @@
     "C:\\Users\\Alunos\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "00 depende de Microsoft.EntityFrameworkCore (>= 8.0.0-preview.7.25380.108), mas Microsoft.EntityFrameworkCore 8.0.0-preview.7.25380.108 não foi encontrado. A melhor correspondência aproximada de Microsoft.EntityFrameworkCore 8.0.0-rc.1.23419.6 foi resolvida.",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 8.0.19 para 8.0.0-rc.1.23419.6. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n 00 -> Microsoft.EntityFrameworkCore.SqlServer 8.0.19 -> Microsoft.EntityFrameworkCore.Relational 8.0.19 -> Microsoft.EntityFrameworkCore (>= 8.0.19) \r\n 00 -> Microsoft.EntityFrameworkCore (>= 8.0.0-preview.7.25380.108)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 8.0.19 para 8.0.0-rc.1.23419.6. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n 00 -> Microsoft.EntityFrameworkCore.Tools 8.0.19 -> Microsoft.EntityFrameworkCore.Design 8.0.19 -> Microsoft.EntityFrameworkCore.Relational 8.0.19 -> Microsoft.EntityFrameworkCore (>= 8.0.19) \r\n 00 -> Microsoft.EntityFrameworkCore (>= 8.0.0-preview.7.25380.108)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

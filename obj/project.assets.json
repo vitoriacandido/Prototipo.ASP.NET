@@ -1378,13 +1378,13 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/8.0.0-rc.1.23419.6": {
+      "Microsoft.EntityFrameworkCore/8.0.19": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.0-rc.1.23419.6",
-          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.0-rc.1.23419.6",
-          "Microsoft.Extensions.Caching.Memory": "8.0.0-rc.1.23419.4",
-          "Microsoft.Extensions.Logging": "8.0.0-rc.1.23419.4"
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.19",
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.19",
+          "Microsoft.Extensions.Caching.Memory": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1"
         },
         "compile": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
@@ -1400,7 +1400,7 @@
           "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/8.0.0-rc.1.23419.6": {
+      "Microsoft.EntityFrameworkCore.Abstractions/8.0.19": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -1413,7 +1413,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/8.0.0-rc.1.23419.6": {
+      "Microsoft.EntityFrameworkCore.Analyzers/8.0.19": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1542,14 +1542,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/8.0.0-rc.1.23419.4": {
+      "Microsoft.Extensions.Caching.Memory/8.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "8.0.0-rc.1.23419.4",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-rc.1.23419.4",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-rc.1.23419.4",
-          "Microsoft.Extensions.Options": "8.0.0-rc.1.23419.4",
-          "Microsoft.Extensions.Primitives": "8.0.0-rc.1.23419.4"
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -5422,46 +5422,49 @@
         "microsoft.dotnet.scaffolding.shared.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/8.0.0-rc.1.23419.6": {
-      "sha512": "J/SdyXJIe0S1LnBivOpGwi/TbFAyQON8JFcSPPLteyosoUhTkoHPmEEPb2qir4TahI1vXmDWmDXd/8A370xCvA==",
+    "Microsoft.EntityFrameworkCore/8.0.19": {
+      "sha512": "3SL+NNXRE/ucuVO1yKz5l3VY4x3k/ds9OK0rAE2W80V9Imvo3cXFGemYj5nAKnFOERxoRek/vwOPjSVTF4R52w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/8.0.0-rc.1.23419.6",
+      "path": "microsoft.entityframeworkcore/8.0.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "PACKAGE.md",
         "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props",
         "lib/net8.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.8.0.0-rc.1.23419.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.8.0.19.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/8.0.0-rc.1.23419.6": {
-      "sha512": "odyp5fXS01/DcQWrUMkCIQy187oRZLZOvobA6uzideNMmPOrxMYdcE5/k6YtlezyLGC3ZEcBjoBJfTrYpIGCDQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/8.0.19": {
+      "sha512": "3INN1Vti9EUVwb83o5uygUdjHgZCPLmQPpKptixh3hivggUCq1eZmU9QtyxwmK0HA6NXbZ5tyPIHSQNsMPS6aw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/8.0.0-rc.1.23419.6",
+      "path": "microsoft.entityframeworkcore.abstractions/8.0.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.8.0.0-rc.1.23419.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.8.0.19.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/8.0.0-rc.1.23419.6": {
-      "sha512": "6SReGxiEoR8Kc2fDNdAkcxaIQBLuHquPrDPJ4HHKefdaz8Z1XKm0CvcoHX9qZVd1WJM32dmeoBftoJJB+kHbFw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/8.0.19": {
+      "sha512": "OdLnhf4Mjm6OkhraTKK2Ye/Ok6VVcb5p1wtWfZBKKC3lHwQAisnv0BokE6NrLiySdcseVTI/ZAcQ+fGZVAx5Kg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/8.0.0-rc.1.23419.6",
+      "path": "microsoft.entityframeworkcore.analyzers/8.0.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
+        "docs/PACKAGE.md",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.8.0.0-rc.1.23419.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.8.0.19.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -5596,15 +5599,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/8.0.0-rc.1.23419.4": {
-      "sha512": "v5IFVM20g/p/DCrM0VNWgs8dfMQQQQzzaaX2LDwrqkHRf2+UmAnR/mr9O2Crp2YFRn2GwLD3kVVObUZSH5bQ/A==",
+    "Microsoft.Extensions.Caching.Memory/8.0.1": {
+      "sha512": "HFDnhYLccngrzyGgHkjEDU5FMLn4MpOsr5ElgsBMC4yx6lJh4jeWO7fHS8+TXPq+dgxCmUa/Trl8svObmwW4QA==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/8.0.0-rc.1.23419.4",
+      "path": "microsoft.extensions.caching.memory/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.Caching.Memory.targets",
         "buildTransitive/net462/_._",
@@ -5620,7 +5624,7 @@
         "lib/net8.0/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.8.0.0-rc.1.23419.4.nupkg.sha512",
+        "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -8424,11 +8428,12 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.12",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.12",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.12",
-      "Microsoft.EntityFrameworkCore >= 8.0.0-preview.7.25380.108",
+      "Microsoft.EntityFrameworkCore >= 8.0.19",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.19",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.19",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc >= 8.0.7",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.3"
     ]
   },
@@ -8438,11 +8443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\Documents\\00\\00.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\00.csproj",
       "projectName": "00",
-      "projectPath": "C:\\Users\\Alunos\\Documents\\00\\00.csproj",
+      "projectPath": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\00.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\Documents\\00\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8488,7 +8493,7 @@
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[8.0.0-preview.7.25380.108, )"
+            "version": "[8.0.19, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -8505,6 +8510,10 @@
             "version": "[8.0.19, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[8.0.7, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
             "target": "Package",
             "version": "[8.0.7, )"
           },
@@ -8535,35 +8544,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "00 depende de Microsoft.EntityFrameworkCore (>= 8.0.0-preview.7.25380.108), mas Microsoft.EntityFrameworkCore 8.0.0-preview.7.25380.108 não foi encontrado. A melhor correspondência aproximada de Microsoft.EntityFrameworkCore 8.0.0-rc.1.23419.6 foi resolvida.",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 8.0.19 para 8.0.0-rc.1.23419.6. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n 00 -> Microsoft.EntityFrameworkCore.SqlServer 8.0.19 -> Microsoft.EntityFrameworkCore.Relational 8.0.19 -> Microsoft.EntityFrameworkCore (>= 8.0.19) \r\n 00 -> Microsoft.EntityFrameworkCore (>= 8.0.0-preview.7.25380.108)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 8.0.19 para 8.0.0-rc.1.23419.6. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n 00 -> Microsoft.EntityFrameworkCore.Tools 8.0.19 -> Microsoft.EntityFrameworkCore.Design 8.0.19 -> Microsoft.EntityFrameworkCore.Relational 8.0.19 -> Microsoft.EntityFrameworkCore (>= 8.0.19) \r\n 00 -> Microsoft.EntityFrameworkCore (>= 8.0.0-preview.7.25380.108)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
