@@ -8443,11 +8443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\00.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Documents\\1\\Prototipo.ASP.NET\\00.csproj",
       "projectName": "00",
-      "projectPath": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\00.csproj",
+      "projectPath": "C:\\Users\\Alunos\\Documents\\1\\Prototipo.ASP.NET\\00.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\Documents\\00\\Prototipo.ASP.NET\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\Documents\\1\\Prototipo.ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
